@@ -1,0 +1,22 @@
+{
+    "name": "fytinnovations/laravel-topping",
+    "description": "A library which adds some extra flavors to the laravel framework",
+    "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fytinnovations",
+            "email": "hello@fytinnovations.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fytinnovations\\LaravelTopping\\": "src"
+        }
+    }
+}
