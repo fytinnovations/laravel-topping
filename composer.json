@@ -18,5 +18,13 @@
         "psr-4": {
             "Fytinnovations\\LaravelTopping\\": "src"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fytinnovations\\LaravelTopping\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "~4.0"
     }
 }
